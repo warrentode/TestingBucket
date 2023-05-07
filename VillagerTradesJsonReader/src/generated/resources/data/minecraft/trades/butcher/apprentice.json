@@ -1,0 +1,44 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "villagertradesjsonreader:basic",
+      "experience": 10,
+      "max_trades": 16,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:emerald"
+      },
+      "payment_item": {
+        "count": 15,
+        "item": "minecraft:coal"
+      }
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "experience": 5,
+      "max_trades": 16,
+      "offer_item": {
+        "count": 5,
+        "item": "minecraft:cooked_porkchop"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "experience": 5,
+      "max_trades": 16,
+      "offer_item": {
+        "count": 8,
+        "item": "minecraft:cooked_chicken"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:emerald"
+      }
+    }
+  ]
+}

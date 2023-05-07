@@ -1,0 +1,362 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:protection",
+          "level": 4
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_helmet",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 15,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:blast_protection",
+          "level": 4
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_helmet",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 19,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:fire_protection",
+          "level": 4
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_helmet",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 13,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:mending",
+          "level": 1
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_helmet",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 18,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:projectile_protection",
+          "level": 4
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_helmet",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 26,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:thorns",
+          "level": 3
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_helmet",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 15,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:respiration",
+          "level": 3
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_helmet",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 13,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:unbreaking",
+          "level": 3
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_helmet",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 18,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:aqua_affinity",
+          "level": 1
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_helmet",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 26,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:respiration",
+          "level": 3
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_helmet",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 20,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:protection",
+          "level": 4
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_chestplate",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 22,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:blast_protection",
+          "level": 4
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_chestplate",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 33,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:fire_protection",
+          "level": 4
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_chestplate",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 34,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:mending",
+          "level": 1
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_chestplate",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 30,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:projectile_protection",
+          "level": 4
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_chestplate",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 27,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:thorns",
+          "level": 3
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_chestplate",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 21,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:unbreaking",
+          "level": 3
+        }
+      ],
+      "experience": 15,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_chestplate",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 24,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.2
+    }
+  ]
+}

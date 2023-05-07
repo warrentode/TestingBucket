@@ -1,0 +1,16 @@
+// 1.19.2	2023-05-07T12:57:02.2610018	TradeProvider: villagertradesjsonreader
+76d390df8ba69195b88868d91c22e0ffefa7a248 data/minecraft/trades/armorer/apprentice.json
+0f834273f043fdf550f857a5125a35dfaf026154 data/minecraft/trades/armorer/expert.json
+74964ef3ed4c461640bea0fc4ac6e38bb253a6fd data/minecraft/trades/armorer/journeyman.json
+31c0d309031d10d3ea41bb999b7ae781448f7190 data/minecraft/trades/armorer/master.json
+2a1b13216a231d0f0b916b1313ed529a75d3838b data/minecraft/trades/armorer/novice.json
+a6970bc3e550794a7f3ef003bc670aa288c2dc83 data/minecraft/trades/butcher/apprentice.json
+049475454f4629c8adc11be0da45a98e8b10b7d5 data/minecraft/trades/butcher/expert.json
+6b93bd02dd6ceafe9c19eda9967d3620139694eb data/minecraft/trades/butcher/journeyman.json
+bf886e353feb0e9c7e7f61c51f6db41097a01b9c data/minecraft/trades/butcher/master.json
+9e6097a942e823c936cec38970b7be3560f42e08 data/minecraft/trades/butcher/novice.json
+6a9a0bf698ca8a6fafa8223a3c713378bc48c648 data/minecraft/trades/cartographer/apprentice.json
+772dd99d7fbf3f91e37d15713ab59502ffa13d44 data/minecraft/trades/cartographer/expert.json
+22c3690d5a82ffca301c18af63af89cba54df33f data/minecraft/trades/cartographer/journeyman.json
+8edec3e32e3a3680b2c6d3d0f6b19c0c9c5688b7 data/minecraft/trades/cartographer/master.json
+9207aaccb883f71c6e4e59dea7e455e5fd8c6cdf data/minecraft/trades/cartographer/novice.json

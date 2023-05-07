@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "villagertradesjsonreader:basic",
+      "experience": 15,
+      "max_trades": 16,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:item_frame"
+      },
+      "payment_item": {
+        "count": 7,
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "type": "villagertradesjsonreader:basic",
+      "experience": 15,
+      "max_trades": 16,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:red_banner"
+      },
+      "payment_item": {
+        "count": 3,
+        "item": "minecraft:emerald"
+      }
+    }
+  ]
+}

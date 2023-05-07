@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:cyan_concrete"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:green_concrete"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:magenta_concrete"
+            }
+          }
+        ]
+      },
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:dirt"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "half_height": 1
+  }
+}
