@@ -1,0 +1,9 @@
+{
+  "values": [
+    "recipebooktest:gold_coin",
+    "recipebooktest:nether_gold_coin",
+    "recipebooktest:gold_coin_bag",
+    "recipebooktest:nether_gold_coin_bag",
+    "#forge:piglin_barter_items"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "recipebooktest:iron_coin"
+    },
+    {
+      "item": "recipebooktest:iron_coin"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_nugget"
+  }
+}

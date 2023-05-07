@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "pattern": [
+    " S ",
+    " C ",
+    " S "
+  ],
+  "result": {
+    "item": "recipebooktest:currency_stamp"
+  }
+}

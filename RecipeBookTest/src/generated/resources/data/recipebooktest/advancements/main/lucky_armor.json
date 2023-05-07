@@ -1,0 +1,77 @@
+{
+  "parent": "recipebooktest:main/root",
+  "criteria": {
+    "craft_lucky_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:lucky_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_lucky_hat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:lucky_hat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_lucky_pants": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:lucky_pants"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_lucky_shirt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:lucky_shirt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.luckyArmor.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "recipebooktest:lucky_shirt",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.luckyArmor"
+    }
+  },
+  "requirements": [
+    [
+      "craft_lucky_shirt",
+      "craft_lucky_pants",
+      "craft_lucky_hat",
+      "craft_lucky_boots"
+    ]
+  ]
+}

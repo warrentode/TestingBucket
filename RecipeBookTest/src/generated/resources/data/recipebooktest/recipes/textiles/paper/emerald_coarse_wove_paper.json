@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "recipebooktest:emerald_fiber"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "recipebooktest:emerald_coarse_wove_paper"
+  }
+}

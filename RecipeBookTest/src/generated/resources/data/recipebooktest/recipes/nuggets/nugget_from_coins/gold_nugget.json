@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "recipebooktest:gold_coin"
+    },
+    {
+      "item": "recipebooktest:gold_coin"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_nugget"
+  }
+}

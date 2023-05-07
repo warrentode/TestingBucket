@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "recipebooktest:chests/recipebooktest/recipebooktest_copper_coin_loot",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "recipebooktest:chests/recipebooktest/recipebooktest_iron_coin_loot",
+          "quality": 1,
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "recipebooktest:chests/recipebooktest/recipebooktest_gold_coin_loot",
+          "quality": 2,
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:nether_wastes"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:crimson_forest"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:warped_forest"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:basalt_deltas"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:soul_sand_valley"
+                  }
+                }
+              ]
+            }
+          ],
+          "name": "recipebooktest:chests/recipebooktest/recipebooktest_nether_gold_coin_loot",
+          "quality": 2,
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "recipebooktest:chests/recipebooktest/recipebooktest_emerald_quarter_bank_note_loot",
+          "quality": 3,
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "recipebooktest:chests/recipebooktest/recipebooktest_netherite_coin_loot",
+          "quality": 4,
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "recipebooktest:chests/recipebooktest/recipebooktest_emerald_half_bank_note_loot",
+          "quality": 4,
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "recipebooktest:chests/recipebooktest/recipebooktest_emerald_bank_note_loot",
+          "quality": 5,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "recipebooktest:chests/recipebooktest/recipebooktest_lucky_coin_loot",
+          "quality": 6
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "recipebooktest:four_leaf_clover"
+    }
+  },
+  "pattern": [
+    "###",
+    " # ",
+    "###"
+  ],
+  "result": {
+    "item": "recipebooktest:lucky_nugget"
+  }
+}

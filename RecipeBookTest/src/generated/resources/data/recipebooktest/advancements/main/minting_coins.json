@@ -1,0 +1,102 @@
+{
+  "parent": "recipebooktest:main/root",
+  "criteria": {
+    "craft_coin_press": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:currency_stamp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_copper_coin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:copper_coin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_currency_stamp": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:currency_stamp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_gold_coin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:gold_coin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_iron_coin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:iron_coin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_netherite_coin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:netherite_coin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.mintingCoins.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "recipebooktest:gold_coin"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.mintingCoins"
+    }
+  },
+  "requirements": [
+    [
+      "craft_coin_press",
+      "craft_currency_stamp",
+      "craft_copper_coin",
+      "craft_iron_coin",
+      "craft_gold_coin",
+      "craft_netherite_coin"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "recipebooktest:coinpress",
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "recipebooktest:currency_stamp"
+    },
+    {
+      "tag": "forge:nuggets/iron"
+    }
+  ],
+  "recipe_book_tab": "coins",
+  "result": {
+    "count": 2,
+    "item": "recipebooktest:iron_coin"
+  },
+  "stampingTime": 50
+}

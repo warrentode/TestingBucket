@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "recipebooktest:textiles/currency_fiber"
+    },
+    "C": {
+      "item": "recipebooktest:lucky_coin"
+    }
+  },
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "item": "recipebooktest:lucky_fiber"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "recipebooktest:coinpress",
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "recipebooktest:currency_stamp"
+    },
+    {
+      "tag": "forge:nuggets/lucky"
+    }
+  ],
+  "recipe_book_tab": "coins",
+  "result": {
+    "count": 2,
+    "item": "recipebooktest:lucky_coin"
+  },
+  "stampingTime": 50
+}

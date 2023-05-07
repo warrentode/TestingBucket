@@ -1,0 +1,17 @@
+{
+  "type": "recipebooktest:coinpress",
+  "experience": 0.65,
+  "ingredients": [
+    {
+      "item": "recipebooktest:nether_currency_stamp"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    }
+  ],
+  "recipe_book_tab": "coins",
+  "result": {
+    "item": "recipebooktest:nether_gold_coin"
+  },
+  "stampingTime": 75
+}

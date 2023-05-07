@@ -1,0 +1,37 @@
+{
+  "parent": "recipebooktest:main/root",
+  "criteria": {
+    "craft_lucky_coin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:lucky_coin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.luckyPenny.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "recipebooktest:lucky_coin"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.luckyPenny"
+    }
+  },
+  "requirements": [
+    [
+      "craft_lucky_coin"
+    ]
+  ]
+}

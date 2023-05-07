@@ -1,0 +1,63 @@
+{
+  "parent": "recipebooktest:main/root",
+  "criteria": {
+    "craft_emerald_bank_note": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:emerald_bank_note"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_emerald_half_bank_note": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:emerald_half_bank_note"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_emerald_quarter_bank_note": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:emerald_quarter_bank_note"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.printingMoney.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "recipebooktest:emerald_bank_note"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.printingMoney"
+    }
+  },
+  "requirements": [
+    [
+      "craft_emerald_quarter_bank_note",
+      "craft_emerald_half_bank_note",
+      "craft_emerald_bank_note"
+    ]
+  ]
+}

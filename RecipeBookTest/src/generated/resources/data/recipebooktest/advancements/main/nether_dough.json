@@ -1,0 +1,50 @@
+{
+  "parent": "recipebooktest:main/root",
+  "criteria": {
+    "craft_nether_currency_stamp": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:nether_currency_stamp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_nether_gold_coin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:nether_gold_coin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.netherDough.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "recipebooktest:nether_gold_coin"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.netherDough"
+    }
+  },
+  "requirements": [
+    [
+      "craft_nether_currency_stamp",
+      "craft_nether_gold_coin"
+    ]
+  ]
+}

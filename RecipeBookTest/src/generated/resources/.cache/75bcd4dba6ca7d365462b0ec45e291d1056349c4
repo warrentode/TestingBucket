@@ -1,0 +1,8 @@
+// 1.19.2	2023-04-30T17:31:54.0893441	Tags for minecraft:block
+dfc09374db7ba9d79c7bb24fcb6f0b81acc08970 data/forge/tags/blocks/storage_blocks.json
+fbce4071f41c67df1328d16d75dfb6c26b2f1244 data/forge/tags/blocks/storage_blocks/currency_blocks.json
+e77df140564ca35b033a1d0d31590cc11abb24de data/minecraft/tags/blocks/mineable/pickaxe.json
+7adfe8b9890576c0963f3cc65ffd41f7b7f12f12 data/minecraft/tags/blocks/needs_stone_tool.json
+928d35eac001debc550527092f7e618f80b386b7 data/recipebooktest/tags/blocks/job_blocks.json
+fbce4071f41c67df1328d16d75dfb6c26b2f1244 data/recipebooktest/tags/blocks/storage_blocks.json
+aae70490a0f745b520d108b6eae712f86fcd335f data/recipebooktest/tags/blocks/storage_blocks/currency_blocks.json

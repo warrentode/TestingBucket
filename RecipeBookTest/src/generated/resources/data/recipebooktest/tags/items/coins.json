@@ -1,0 +1,10 @@
+{
+  "values": [
+    "recipebooktest:copper_coin",
+    "recipebooktest:iron_coin",
+    "recipebooktest:gold_coin",
+    "recipebooktest:nether_gold_coin",
+    "recipebooktest:netherite_coin",
+    "recipebooktest:lucky_coin"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gold_coin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:gold_coin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "recipebooktest:storage_blocks/coins_to_bags/gold_bag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_gold_coin",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "recipebooktest:storage_blocks/coins_to_bags/gold_bag"
+    ]
+  }
+}

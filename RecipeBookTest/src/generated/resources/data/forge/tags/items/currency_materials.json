@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#forge:nuggets/copper",
+    "#forge:nuggets/iron",
+    "#forge:nuggets/gold",
+    "#recipebooktest:nuggets/netherite",
+    "#recipebooktest:textiles/currency_fiber",
+    "#recipebooktest:textiles/currency_paper"
+  ]
+}

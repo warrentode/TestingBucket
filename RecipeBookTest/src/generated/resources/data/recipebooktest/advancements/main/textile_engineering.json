@@ -1,0 +1,116 @@
+{
+  "parent": "recipebooktest:main/root",
+  "criteria": {
+    "craft_coarse_wove_paper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:emerald_coarse_wove_paper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_emerald_fiber": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:emerald_fiber"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_emerald_smooth_paper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:emerald_smooth_wove_paper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_emerald_wove_paper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:emerald_wove_paper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_lucky_fabric": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:lucky_fabric"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_lucky_fiber": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:lucky_fiber"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_lucky_thread": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "recipebooktest:lucky_thread"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.textileEngineering.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "recipebooktest:lucky_shirt",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.textileEngineering"
+    }
+  },
+  "requirements": [
+    [
+      "craft_emerald_fiber",
+      "craft_coarse_wove_paper",
+      "craft_emerald_wove_paper",
+      "craft_emerald_smooth_paper",
+      "craft_lucky_fiber",
+      "craft_lucky_thread",
+      "craft_lucky_fabric"
+    ]
+  ]
+}

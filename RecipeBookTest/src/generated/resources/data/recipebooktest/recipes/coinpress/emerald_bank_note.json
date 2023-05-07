@@ -1,0 +1,17 @@
+{
+  "type": "recipebooktest:coinpress",
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "recipebooktest:currency_stamp"
+    },
+    {
+      "item": "recipebooktest:emerald_smooth_wove_paper"
+    }
+  ],
+  "recipe_book_tab": "bank_notes",
+  "result": {
+    "item": "recipebooktest:emerald_bank_note"
+  },
+  "stampingTime": 50
+}

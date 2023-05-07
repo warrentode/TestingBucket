@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="GNU_GPL.3"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+
+[[mods]]
+modId="recipebooktest"
+version="1.19.2-0.0.1"
+displayName="Recipe Book Test"
+
+# A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+
+#logoFile="examplemod.png" #optional
+
+#credits="Thanks for this example mod goes to Java" #optional
+
+authors="Warren Tode"
+description='''Testing the Recipe Book feature of the game'''
+
+[[dependencies.recipebooktest]]
+    modId="forge" #mandatory
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.recipebooktest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"

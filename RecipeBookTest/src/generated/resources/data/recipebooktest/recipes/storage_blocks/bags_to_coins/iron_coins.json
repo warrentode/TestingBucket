@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "recipebooktest:iron_coin_bag"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "recipebooktest:iron_coin"
+  }
+}

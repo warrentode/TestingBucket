@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "recipebooktest:emerald_fiber"
+    },
+    {
+      "item": "recipebooktest:emerald_fiber"
+    },
+    {
+      "item": "recipebooktest:emerald_fiber"
+    },
+    {
+      "item": "recipebooktest:emerald_fiber"
+    },
+    {
+      "item": "recipebooktest:emerald_fiber"
+    },
+    {
+      "item": "recipebooktest:emerald_fiber"
+    },
+    {
+      "item": "recipebooktest:emerald_fiber"
+    },
+    {
+      "item": "recipebooktest:emerald_fiber"
+    }
+  ],
+  "result": {
+    "item": "recipebooktest:emerald_smooth_wove_paper"
+  }
+}
