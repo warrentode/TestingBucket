@@ -112,7 +112,11 @@ jar.finalizedBy('reobfJar')
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            artifact jar
+            groupId = 'com.github.warrentode'
+            artifactId = 'piglinmerchant'
+            version = '1.19.3-0.0.1'
+
+            from components.java
         }
     }
     repositories {
