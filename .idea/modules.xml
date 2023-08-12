@@ -5,8 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PiglinMerchantMod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PiglinMerchantMod.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PiglinMerchantMod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/PiglinMerchantMod.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TestingBucket.iml" filepath="$PROJECT_DIR$/.idea/TestingBucket.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.warrentode.piglinmerchantmod.PiglinMerchantMod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/net.warrentode.piglinmerchantmod.PiglinMerchantMod.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.warrentode.piglinmerchantmod.PiglinMerchantMod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/net.warrentode.piglinmerchantmod.PiglinMerchantMod.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.warrentode.PiglinMerchantMod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.warrentode.PiglinMerchantMod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.warrentode.PiglinMerchantMod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.warrentode.PiglinMerchantMod.test.iml" />
     </modules>
   </component>
 </project>

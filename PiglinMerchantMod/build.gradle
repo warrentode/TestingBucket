@@ -8,7 +8,7 @@ plugins {
 // Forge’s Semantic Versioning structure
 // MCVERSION.MAJORMOD.MAJORAPI.MINOR.PATCH
 version = '1.19.3-0.0.1'
-group = 'net.warrentode.piglinmerchantmod'
+group = 'com.github.warrentode'
 archivesBaseName = 'piglinmerchantmod'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
